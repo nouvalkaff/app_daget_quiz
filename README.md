@@ -16,9 +16,13 @@ tautan DANA Kaget hanya ditampilkan jika ketiga jawaban benar.
 ## Menjalankan aplikasi
 
 ```powershell
-python -m pip install -r requirements_app.txt
+python -m pip install -r requirements.txt
 python -m streamlit run streamlit_app.py
 ```
+
+`requirements.txt` is also the dependency manifest used by Streamlit Community
+Cloud. The legacy `requirements_app.txt` contains the same requirements for
+existing local workflows.
 
 ## Konfigurasi link hadiah
 
